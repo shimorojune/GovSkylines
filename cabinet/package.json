@@ -1,0 +1,24 @@
+{
+  "name": "govskylines-cabinet",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "AI government departments for Cities: Skylines II, on top of the CS2MCP bridge",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "tools": "tsx src/index.ts tools",
+    "brief": "tsx src/index.ts brief",
+    "ask": "tsx src/index.ts ask"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.6.0",
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "dotenv": "^18.0.9"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
