@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.skybridge/
+.env
+minutes/
+bin/
+obj/
+*.user
+.vs/
